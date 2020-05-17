@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+.brand-logo{
+    margin-left: 5%;
+    padding-top: 3%;
+    padding-left:5%;
+    font-size: 50px;
+}
+#logo{
+    font-size: 45px;
+}
+nav{
+    height: 75px;
+}
+#card-row{
+    
+}
+.container{
+    margin: 5% 5% 5% 5%;
+}
+.page-footer{
+    
+}
+div.card.hoverable{
+}
+.card .card-image .card-title {
+
+    
+}
+.responsive-video{
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    float: left;
+    
+ 
+}
+#clear {
+    clear: both;
+}
+#video-bar{
+    width: 1250px;
+}
+iframe{
+    width: 100%;
+}
