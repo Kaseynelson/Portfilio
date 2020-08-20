@@ -330,11 +330,8 @@ left: -5px;
   50% { border-color: orange }
 }
 .line-1{
-    width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    transform: translateY(-50%);    
+    border-right: 2px solid rgba(255,255,255,.75);   
 }
 
 /* Animation */
