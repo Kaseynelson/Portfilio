@@ -309,13 +309,10 @@ left: -5px;
 }
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
-  color: #fff;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid blue; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
@@ -333,15 +330,10 @@ left: -5px;
   50% { border-color: orange }
 }
 .line-1{
-    position: relative;
-    top: 50%;  
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
     transform: translateY(-50%);    
 }
 
